@@ -1,0 +1,10 @@
+{
+  "name": "tmdb-movie-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vanilla JavaScript 영화 검색 및 찜 목록",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server/server.js", "dev": "node --watch server/server.js", "test": "node --test" },
+  "dependencies": { "dotenv": "^16.6.1", "express": "^5.1.0" }
+}
